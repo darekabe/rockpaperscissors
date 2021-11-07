@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+     <script>
+
+        const x = [
+            "Rock",
+            "Paper",
+            "Scissors"       
+                  ];
+
+
+        function computerPlay(x) {x[Math.floor(Math.random()*x.length)];
+        }
+        const userSelection = "Rock";
+        function gamePlay(computerSelection,userSelection) {
+        if ((userSelect = "Rock") && (computerSelect = "Paper")) {
+            return "You Win!"
+        }   else if ((userSelect = "Paper") && (computerSelect = "Rock")) {
+            return "You Win!"
+        } else if ((userSelect = "Scissors") && (compterSelect = "Paper")) {
+            return "You Win!"
+        } else {
+            return "You Lose!"
+        }
+
+        }
+
+        const computerSelection = computerPlay();
+
+  
+        console.log(gamePlay(computerSelection, userSelection));
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </script>
+     
+ </body>
+ </html>
